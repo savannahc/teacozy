@@ -3,18 +3,22 @@ body {
 	font-family: Helvetica;
 	font-weight: lighter;
 }
-.hero{
-	font-size:70px;
+div.hero{
 	font-weight: bold;
 	color: white;
-	background-color: black;
+	background-image:url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
-.top-nav{
+a.top-nav{
+	color: white;
 	font-weight:lighter;
 	font-style: underline;
 	font-size: 18px
-	color: white;
+	
 }
+#title{
+	font-size:70px;
+}
+
 .supporting{
 	font-size:32px;
 	font-weight: bold;
@@ -23,13 +27,19 @@ h3{
 	font-size: 23px;
 	font-weight: bold; 
 }
+div.h2{
+	font-size:23px;
+}
 p{
 	font-size: 14px;
-}
-
-.mini{
-	color: white;
+	font-weight: lighter;
 }
 .bottom-nav{
 	text-align: left;
+	background-color: gray;
+	color:white;
+	font-size: 14px;
+}
+p.bottom-nav{
+	font-size:11px;
 }
